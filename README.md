@@ -4,7 +4,7 @@ An advanced financial engineering project that leverages a deep neural network t
 
 The project features an interactive web application built with Streamlit that serves as a tool for analysis and visualization, allowing for a direct comparison between the AI's learned pricing model and market reality.
 
-## Key Features:
+## Key Features
 
 * **AI-Powered Pricing Engine:** A neural network trained in PyTorch/TensorFlow predicts option prices based on historical data.
 * **Volatility Smile Visualization:** An interactive Plotly chart that compares the market's true implied volatility smile against the smile learned by the AI model.
