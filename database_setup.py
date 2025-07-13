@@ -16,13 +16,13 @@ class OptionData(Base):
         id (int): Unique identifier for the option.
         fetch_timestamp (datetime): Timestamp when the data was fetched.
         ticker (str): Stock ticker symbol.
-        price (float): Price of the underlying stock.
+        stock_price (float): Price of the underlying stock.
         option_type (str): Type of option ('call' or 'put').
         expiry_date (date): Expiration date of the option.
         strike_price (float): Strike price of the option.
         market_price (float): Market price of the option.
         implied_volatility (float): Implied volatility of the option.
-        time_to_expiry_days (int): Days until the option expires.
+        dte (int): Days until the option expires.
     """
 
     __tablename__ = "options"
@@ -30,13 +30,13 @@ class OptionData(Base):
     id = sa.Column(sa.Integer, primary_key=True, autoincrement=True)
     fetch_timestamp = sa.Column(sa.DateTime, nullable=False)
     ticker = sa.Column(sa.String, nullable=False)
-    price = sa.Column(sa.Float, nullable=False)
+    stock_price = sa.Column(sa.Float, nullable=False)
     option_type = sa.Column(sa.String, nullable=False)
     expiry_date = sa.Column(sa.Date, nullable=False)
     strike_price = sa.Column(sa.Float, nullable=False)
     market_price = sa.Column(sa.Float, nullable=False)
     implied_volatility = sa.Column(sa.Float, nullable=False)
-    time_to_expiry_days = sa.Column(sa.Integer, nullable=False)
+    dte = sa.Column(sa.Integer, nullable=False)
 
     def __repr__(self):
         return (
