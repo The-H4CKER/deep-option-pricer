@@ -6,7 +6,7 @@ from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import sessionmaker
 from typing import cast, Iterable, Dict, Any
 
-from database_setup import OptionData, DB_PATH
+from src.deep_option_pricer.database_setup import OptionData, DB_PATH
 
 
 def get_session():

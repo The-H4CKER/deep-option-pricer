@@ -1,7 +1,7 @@
 import sqlalchemy as sa
 from sqlalchemy.orm import declarative_base
 
-DB_NAME = "options_date.db"
+DB_NAME = "options_data.db"
 DB_PATH = f"sqlite:///{DB_NAME}"
 
 Base = declarative_base()
