@@ -1,16 +1,17 @@
 # Deep Option Pricer
 
-![App Demo](assets/app_demo.gif)
-
-**Live Application:** [neural-vol-engine.streamlit.app](https://neural-vol-engine.streamlit.app)
-
----
-
 ## Project Overview
 
 This project trains a deep neural network to price stock options by learning from real market data. The model is designed to capture complex market dynamics, such as the volatility smile, which classic pricing models like Black-Scholes cannot natively represent.
 
 The primary deliverable is an interactive web application built with Streamlit. This application serves as a tool for analysis and visualization, allowing for a direct comparison between the AI's learned pricing model and live market data.
+
+
+![App Demo](assets/app_demo.gif)
+
+**Live Application:** [neural-vol-engine.streamlit.app](https://neural-vol-engine.streamlit.app)
+
+---
 
 ## Key Features
 
