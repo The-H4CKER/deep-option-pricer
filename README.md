@@ -1,4 +1,4 @@
-# Deep Option Pricer
+# Neural Volatility Engine
 
 An advanced financial engineering project that leverages a deep neural network to price stock options by learning directly from real market data. This data-driven approach is designed to capture complex market dynamics, such as the **volatility smile**, which classic models like Black-Scholes cannot natively represent.
 
