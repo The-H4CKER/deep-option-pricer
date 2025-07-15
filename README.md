@@ -53,7 +53,7 @@ The plot below shows the Test RMSE ($) vs. training epochs for the fundamental p
 
     ```bash
     git clone [https://github.com/The-H4CKER/deep-option-pricer.git](https://github.com/The-H4CKER/deep-option-pricer.git)
-    cd your-repo-name
+    cd deep-option-pricer
     ```
 
 2. **Create and activate a virtual environment:**
