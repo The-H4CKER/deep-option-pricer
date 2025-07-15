@@ -1,6 +1,8 @@
 # Deep Option Pricer
 
-**Live Application:** [options-ai.streamlit.app](https://options-ai.streamlit.app)
+![App Demo](assets/app_demo.gif)
+
+**Live Application:** [neural-vol-engine.streamlit.app](https://neural-vol-engine.streamlit.app)
 
 ---
 
