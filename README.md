@@ -49,24 +49,28 @@ The plot below shows the Test RMSE ($) vs. training epochs for the fundamental p
 
 ## Installation & Usage
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
+
     ```bash
     git clone [https://github.com/The-H4CKER/deep-option-pricer.git](https://github.com/The-H4CKER/deep-option-pricer.git)
     cd your-repo-name
     ```
 
-2.  **Create and activate a virtual environment:**
+2. **Create and activate a virtual environment:**
+
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3.  **Install dependencies:**
+3. **Install dependencies:**
+
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Run the Streamlit application:**
+4. **Run the Streamlit application:**
+
     ```bash
     streamlit run app.py
     ```
