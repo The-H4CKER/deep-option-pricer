@@ -9,8 +9,6 @@ The primary deliverable is an interactive web application built with Streamlit. 
 
 **Live Application:** [neural-vol-engine.streamlit.app](https://neural-vol-engine.streamlit.app)
 
----
-
 ## Key Features
 
 * **AI-Powered Pricing Engine:** A neural network trained in PyTorch predicts option prices based on historical data.
