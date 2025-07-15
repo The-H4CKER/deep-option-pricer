@@ -10,7 +10,7 @@ from src.deep_option_pricer.model import OptionPricer
 from src.deep_option_pricer.financial_model import implied_volatility
 
 # --- Page Configuration ---
-st.set_page_config(page_title="Deep Option Pricer", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Neural Volatility Engine", page_icon="📊", layout="wide")
 
 
 # --- Model and Scaler Loading ---
@@ -39,7 +39,7 @@ def get_stock_data(ticker_symbol):
 
 
 # --- Page UI ---
-st.title("Deep Option Pricer")
+st.title("Neural Volatility Engine")
 st.write(
     "An AI-powered option pricing model that learns the volatility smile from fundamental data."
 )
