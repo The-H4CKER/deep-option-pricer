@@ -41,7 +41,7 @@ def get_stock_data(ticker_symbol):
 # --- Page UI ---
 st.title("Deep Option Pricer")
 st.write(
-    "An AI-powered option pricing model that learns the volatility smile from fundamental data."
+    "A neural network that learns to price options and derive the volatility smile from first principles, without relying on implied volatility as a feature."
 )
 
 # --- Sidebar for User Inputs ---
